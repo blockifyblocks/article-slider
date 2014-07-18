@@ -1,5 +1,5 @@
 {
-	"name": "Video and Image Article Picker",
+	"name": "article-slider",
 	"description": "Click to select and show an article",
 	"keywords": ["content"],
 	"template": {
