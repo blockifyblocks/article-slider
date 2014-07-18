@@ -1,0 +1,30 @@
+{
+	"name": "Video and Image Article Picker",
+	"description": "Click to select and show an article",
+	"keywords": ["content"],
+	"template": {
+		"@type": "Article",
+		"@list": {
+			"@type": "Thing",
+			"@value": [
+				{
+					"@type": "Article",
+					"name": "Column Header",
+					"image": "http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_52d5bbef8a613_1.JPG",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				},
+				{
+					"@type": "Article",
+					"name": "Column Header",					
+					"video": "<iframe width='560' height='315' src='//www.youtube.com/embed/l8Xnl3NAwvE' frameborder='0' allowfullscreen></iframe>",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				},
+				{
+					"@type": "Article",
+					"name": "Column Header",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				}
+			]
+		}
+	}
+}
